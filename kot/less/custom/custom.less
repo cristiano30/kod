@@ -1,0 +1,364 @@
+// custom styles
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.headline{
+	border-bottom: 2px solid  #d2d2d2;
+	color: #08c;
+	span{
+		border-bottom: 2px solid @linkColorHover;
+		padding:0 0  2px 0;
+		 
+	}
+}
+ 
+
+.wide {
+	background: @grayDark;
+	
+
+}
+
+.navbar-inner {
+	padding: 20px 0 13px 0;
+	background: none;
+	border: none;
+	.box-shadow(none);
+
+	a {
+		text-shadow: none !important;
+		.transition(all .4s);
+	}
+
+	.dropdown-menu {
+		margin: 0;
+		padding: 0;
+		.border-radius(0);
+		border: none;
+
+		&:before, &:after {
+			content: none;
+		}
+
+		li a {
+			padding: 10px 15px;
+		}
+
+		.dropdown-menu {
+			left: 100% !important;
+			display: none;
+		}
+	}
+
+	.brand {
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: @baseFontSize * 4;
+		.transition(.4s);
+
+		&:hover {
+			color: @linkColorHover;
+		}
+	}
+
+}   
+
+
+.info {
+	@fontSize: @baseFontSize * 2.2;
+
+	p {
+		font-family: 'Open Sans Condensed', sans-serif;
+		color: @white;
+		font-size: @fontSize;
+		padding: 25px 0;
+	}
+
+	 
+}
+
+ .kot1{
+ 	 .transition (all 0.4s);
+ 		&:hover{
+ 			.scale(1.1);
+ 		}
+ 		&:active{
+ 			.scale(0.9);
+ 		 
+ 	}
+ 	width: 200px;
+ 	height: 200px;
+ 	margin: 0 auto;
+
+ }
+.img-circle-big{
+
+ 	 .border-radius(50%);
+ 	  
+ 	
+}        
+
+.thumbnail{
+	 border-radius: 5px;
+	 padding: 5px;
+}     
+.carousel-inner{
+	h3{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
+.row{
+	padding:10px 0px;
+}
+.rasy{
+ margin-left: 22px;
+ padding-top: 20px;
+padding-bottom: 10px;
+ 
+   }  
+
+   .rasyMin1{
+   	margin-top: 20px;
+   }
+
+   .rasyMin2{
+   	margin-top: 10px;
+   }
+    .rasyMin3{
+   	margin-top: 30px;
+   }
+    .rasyMin4{
+   	margin-top: 10px;
+   }
+ .carousel{
+ 
+ 	.pagination{
+		margin:18px 0;
+		 border-bottom: 2px solid @linkColorHover;
+	}
+ }
+.list_carousel {
+	position: relative;
+	
+	nav{
+
+		a{
+			font-size: 80px;
+			position: absolute;
+			top: 50%;
+			margin-top: -5%;
+
+		}
+		.prev {
+
+		left: 0px;
+  		margin-left: 10px;
+  			}
+		.next {
+		 right: 0px;
+		 margin-right: 10px; 
+		 }
+	}
+	ul {
+ 	margin: 0;
+ 	padding: 0;
+	list-style: none;
+	display: block;
+}
+	li {
+	 padding: 0;
+	display: block;
+	float: left;
+}
+
+ 
+ }
+ 
+.budowa{
+	padding-left: 60px;
+}
+
+.btn {
+	 .transition(.4s);
+	&:hover{
+		background-color: @linkColorHover;
+	}
+ 
+}   
+.breadcrumbs{
+		background-color:lighten(@grayDark,20%); 
+		height: 60px;
+		padding-left: 30px;
+		
+ 	    
+	.breadcrumb{
+		
+	 position: relative;
+		background:none;
+		li{
+			text-shadow: none;
+			 color:@grayDark;
+		
+		}
+		.active{
+			color:@linkColor;
+		}
+	}	
+	}
+	.widok_kota{
+		width: 600px;
+		margin: 0 auto;
+		display: block;
+	}
+.wech_kota{
+width: 600px;
+		margin: 0 auto;
+		display: block;
+}
+	p{
+		margin: 30px 0;
+		 text-indent: 20px;
+		 text-align:  justify ;
+	}
+	.pazury{
+		height: 300px;
+		margin: 0 auto;
+		display: block;
+	}
+	.kolory{
+ 	padding-left: 45px;
+ 	border-left: 1px solid  lighten(@grayDark,50%);
+	 .thumbnail{
+	 	 &:hover{
+ 			.scale(1.1);
+ 		}
+ 		 .border-radius(50%);
+	 	margin: 10px 0 10px ;
+	 }
+	}
+	.futro{
+		width: 300px;
+		height: 200px;
+		margin: 0 auto;
+		display: block;
+		padding :60px 60px;
+		transition: 0.7s;
+		&:hover{
+			transform: scale(1.5);
+		}
+	}
+
+
+.futroline{
+
+	border-bottom: 1px solid  #d2d2d2;
+	color: #08c;
+    position: relative;
+ 
+	span{
+  position: relative;
+	 bottom: 2px;
+		border-bottom: 1px solid @linkColorHover;
+		 
+		 
+	}
+}
+.futroline2{
+
+	border-bottom: 1px solid  #d2d2d2;
+	color: #08c;
+    position: relative;
+ 	width: 500px;
+ 	margin: 0 auto;
+
+	span{
+  position: relative;
+		  top: 3px;
+		border-bottom: 1px solid @linkColorHover;
+		 
+		 
+	}
+}
+.accordion-chevron{
+	padding-left: 20px;
+	border-left: 1px solid  lighten(@grayDark,50%);
+}
+.mini_kot{
+ 
+
+	border-left: 1px solid  lighten(@grayDark,50%);
+}
+ .footer{
+ 	height: 80px;
+ 	padding-top: 35px;
+ }
+ .tab-pane{
+ 	p{
+ 		margin-top: 15px;
+ 	}
+ }
+ .choroby_lista{
+ 	list-style: none;
+
+ li{
+
+ 	padding: 10px 10px  ;
+ 	float: left;
+ }	
+ 	 }
+#myModal{
+	width: 600px;
+	height: 500px;
+	 
+ 	 
+} 
+.kot_galeria{
+	.transition (all 0.4s);
+ 		&:hover{
+ 			.scale(1.08);
+ 		}
+}
+.min{
+	width: 150px;
+	height: 150px;
+}
+#formularz{
+	width: 340px;
+	float: right;
+    background-color:   #f9f9f9 ;
+    border:1px solid lighten(@grayDark,60%);  
+    border-radius:7px;  
+	padding:10px; 
+    margin-top:10px;  
+}
+input{
+padding-left: 10px;
+ width: 300px;
+height: 20px;
+
+}
+textarea{
+padding-left: 5px;
+ width: 300px;
+height: 120px;
+
+}
+#submit{
+  width: 315px;
+height: 40px;
+}
+label{
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+.icon{
+	padding-right: 6px;
+top: 0;
+}
+ 
