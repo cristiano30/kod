@@ -1,0 +1,208 @@
+.prawa{
+
+}
+.lewa{
+	
+
+}
+.container-fluid{
+margin-left: -1.1%  !important;
+right: 0;
+
+}
+.logo{
+	 width: 100px;
+	 height: 100px;
+ 
+}
+.bg-faded{
+	background-color:#191919;
+	height:50px;
+	width: 100%;
+	padding-top: 60px;
+}
+.nav-link{
+	color: #cccc99 !important;
+}
+.navbar_lewa{
+padding-left: 40px;
+
+}
+
+.navbar_prawa{
+padding-right: 30px;
+
+}
+.navbar-nav{
+	font-size: 20px;
+	font-family: 'Limelight', cursive;
+
+}
+ .navbar-nav a:hover{
+ background-color:#333300 ;
+ border-radius: 5px;
+ opacity: 0.9;
+ transition:  0.4s;
+transform: scale(1.1);
+ 
+}
+.material-icons{
+padding-right: 3px;
+vertical-align: middle;
+padding-bottom: 5px;
+}
+ .bg{
+background-image: url("https://orig00.deviantart.net/7715/f/2008/131/6/8/carbon_by_alexander_gg.jpg");
+height: 100%;
+width: 100%;
+
+
+  
+
+    }
+.jumbotron h1{
+	color: #f3f3f3 !important;
+	position: relative;
+}
+ .jumbotron {
+  margin-top: 50px;
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn-top {
+	margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 21px;
+  color: #191919;
+  background-color: #cccc99;
+  position: relative;
+}
+.jumbotron .lead{
+	color: silver;
+	margin:0 auto;
+}
+.rol h2{
+	 
+	margin: 0 auto;
+	color: green;
+
+}
+.rol{
+ 
+	margin:0 auto;
+}
+.opcje h2{
+ 
+	font-weight: bold;
+	color:  #669966;
+    text-align: center;
+}
+.opcje p{
+ 
+	color: silver;
+}
+
+.opcje .btn {
+ 
+	width: 150px;
+	height: 40px;
+  padding: 8px 16px;
+ margin: 30px auto;
+  font-size: 16px;
+  color: #191919;
+  background-color: #cccc99;
+  
+  display: block;
+}
+.opcje   span{
+	border-bottom: 2px dotted  #669900;
+	position: relative;
+}
+  .btn:hover{
+	background-color: #66cc66;
+}
+
+ .img-thumbnail
+ {
+ 	width: 100px;
+ 	height: 100px;
+	background: none;
+	border:none;
+margin: 20px;
+ position: relative;
+
+ }
+ .circle{
+ margin: 0 auto;
+ margin-top: 50px;
+ margin-bottom: 20px;
+background-color: silver;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border:5px solid #cccc99;
+opacity: 0.7;
+
+ }
+ .motor{
+ 	width: 700px;
+ 	height: 400px;
+ 	opacity: 0.3;
+ 	 
+ 	margin-top:30px;
+ 	margin-bottom: -500px;
+text-align: center;
+ 
+  
+ 
+ }
+
+ footer{
+ 	width: 100%;
+ 
+ 	background-color: silver;
+ 	margin-left: 0;
+ 	padding: 10px 0 ;
+ }
+ 
+ footer a{
+ 	font-size: x-small;
+ 	color:#3a3a3a;
+ 	font-weight: bold;
+
+ }
+
+ footer a:hover{
+ 	text-decoration: none;
+ 	color: #5a5a5a;
+ 	transition: 0.3s;
+
+ }
+ 
+  .le{
+  	margin-left: 0 !important;
+	
+  	 }
+  	footer ul{
+ 		padding-left: 5px !important;
+  		border-left: 1px solid #aaaaaa;
+
+  	}
+ ul,li {
+
+ 
+ 	list-style: none;
+ 	margin: 0;
+ 	padding:  0;
+ 	clear: both;
+ }
+ .footer_icons{
+ 
+ 	font-size: 15px !important;
+    vertical-align: middle;
+-left: 0;
+ }
+  
+ .row_footer{
+ 	margin:0 auto;
+ }
