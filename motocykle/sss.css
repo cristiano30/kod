@@ -1,0 +1,21 @@
+.kontakt{
+	padding: 30px 0 ;
+	color: white;
+}
+ 
+
+.form-group{
+		padding-top: -20px !important;
+		height: 80px;
+		width: 300px;		
+	}
+ input{
+	width: 270px;	
+}
+textarea{
+	width: 270px;	
+}
+label{
+	margin-top: 10px;
+
+}
